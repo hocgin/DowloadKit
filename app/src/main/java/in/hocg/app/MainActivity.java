@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 			case R.id.button:
 				download = DownloadKit.ctx(this).url("https://downapp.baidu.com/baidutieba/AndroidPhone/8.8.8.0/1/1019960r/20170904163649/baidutieba_AndroidPhone_8-8-8-0_1019960r.apk")
 						.done()
-						.download("百度贴吧下载", "吧的");
+						.download("百度贴吧下载", "测试");
 				break;
 			case R.id.button2:
 				if (download == null) {
