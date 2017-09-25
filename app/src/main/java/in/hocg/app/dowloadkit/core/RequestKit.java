@@ -21,10 +21,6 @@ public class RequestKit extends DownloadManager.Request {
 		this.downloadKit = downloadKit;
 	}
 	
-	public RequestKit(Uri uri) {
-		super(uri);
-	}
-	
 	@Override
 	public RequestKit setDestinationUri(Uri uri) {
 		super.setDestinationUri(uri);
